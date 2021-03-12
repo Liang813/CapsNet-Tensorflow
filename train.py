@@ -19,3 +19,4 @@ if __name__ == "__main__":
             sess.run(capsNet.train_op)
 
     tf.logging.info('Training done')
+    print("success!")
