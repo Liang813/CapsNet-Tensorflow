@@ -22,4 +22,5 @@ if __name__ == "__main__":
 
         tf.logging.info('Training done')
     except Exception as e:
+        print("ValueError")
         traceback.print_exc()
