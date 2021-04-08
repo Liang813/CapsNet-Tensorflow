@@ -22,4 +22,4 @@ if __name__ == "__main__":
 
         tf.logging.info('Training done')
     except Exception as e:
-        traceback.print_exc(file=open('/script/capsnet-tensorflow4-buggy.sh','w+'))
+        traceback.print_exc(file=open('/script/capsnet-tensorflow4-buggy.txt','w+'))
